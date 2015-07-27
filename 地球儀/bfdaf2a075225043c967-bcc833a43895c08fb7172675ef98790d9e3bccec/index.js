@@ -1,4 +1,4 @@
-d3.json("world.json", function(world) {
+d3.json("world-50m.json", function(world) {
 
 var projection = d3.geo.orthographic().scale(245).translate([400,300]).clipAngle(90);
 var path = d3.geo.path().projection(projection);
